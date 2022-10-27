@@ -100,9 +100,11 @@ li {
   font-size: 20px;
   align-items: center;
 }
-.nav-item a {
+
+/* .nav-item a {
   color: #fff;
-}
+  background-color: #e65642;
+} */
 
 /* .Section-2 ul li a {
   color: #272a31;
@@ -278,6 +280,7 @@ nav ul li a:hover {
   .section-3 {
     width: 100%;
   }
+
   .contact {
     display: none;
   }
@@ -348,10 +351,13 @@ header {
 header li {
   list-style-type: none;
 }
-header li a {
+
+/* header li a {
   color: white;
   text-decoration: none;
-}
+  background-color: #e65642;
+} */
+
 .navbar {
   min-height: 70px;
   display: flex;
@@ -359,6 +365,7 @@ header li a {
   align-items: center;
   padding: 0 24px;
 }
+
 .nav-menu {
   display: flex;
   justify-content: space-between;
@@ -398,6 +405,7 @@ header li a {
   .hamburger {
     display: block;
   }
+
   .hamburger.active .bar:nth-child(2) {
     opacity: 0;
   }
@@ -405,6 +413,7 @@ header li a {
   .hamburger.active .bar:nth-child(1) {
     transform: translateY(8px) rotate(45deg);
   }
+
   .hamburger.active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
   }
@@ -421,9 +430,11 @@ header li a {
     transition: 0.3s;
     height: 730px;
   }
+
   .nav-item {
     margin: 16px 0;
   }
+
   .nav-link {
     color: #fff;
   }
