@@ -100,6 +100,7 @@ li {
   gap: 20px;
   font-size: 20px;
   align-items: center;
+  background-color: #e65642;
 }
 
 /* .Section-2 ul li a {
@@ -368,6 +369,7 @@ nav ul li a:hover {
     font-family: Lato, Helvetica, sans-serif;
     min-width: 100px;
   }
+
   .contact {
     display: none;
   }
@@ -465,20 +467,24 @@ nav ul li a:hover {
 
   /* Hamburger Menu */
 }
-* Hanmburger menu */ header {
+
+/* Hanmburger menu  */
+header {
   width: 100%;
   background-color: #272a31;
   color: #d3d3d3;
   display: none;
 }
 
-header li {
+/* header li {
   list-style-type: none;
-}
-header li a {
-  color: white;
+} */
+
+/* header li a {
+  color: blue;
   text-decoration: none;
-}
+} */
+
 .navbar {
   min-height: 70px;
   display: flex;
@@ -486,6 +492,7 @@ header li a {
   align-items: center;
   padding: 0 24px;
 }
+
 .nav-menu {
   display: flex;
   justify-content: space-between;
@@ -525,6 +532,7 @@ header li a {
   .hamburger {
     display: block;
   }
+
   .hamburger.active .bar:nth-child(2) {
     opacity: 0;
   }
@@ -532,6 +540,7 @@ header li a {
   .hamburger.active .bar:nth-child(1) {
     transform: translateY(8px) rotate(45deg);
   }
+
   .hamburger.active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
   }
@@ -548,9 +557,11 @@ header li a {
     transition: 0.3s;
     height: 600px;
   }
+
   .nav-item {
     margin: 16px 0;
   }
+
   .nav-link {
     color: #fff;
   }
