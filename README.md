@@ -50,7 +50,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
--Microverse were you can get quality education.
+I would like to express my gratitude and appreciation to Mr Cindy Shin for his template that I used to built this project.
 
 ## 📝 License
 
