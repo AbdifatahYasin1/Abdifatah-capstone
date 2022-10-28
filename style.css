@@ -75,7 +75,7 @@ li {
 /* Section 2 */
 
 .Section-2 {
-  background-color: #262626;
+  background-color: #fff;
   grid-gap: 0;
   grid-column: 1/6;
   grid-row: 2/2;
@@ -157,26 +157,36 @@ nav ul li a:hover {
 } */
 
 .Section-4 {
-  width: 100%;
-  background-color: var(--primary-color);
+  background: url(images/bg2-repeat.png);
+  background-position: 20% 100%;
+  background-color: #2b2a2a;
+  opacity: 1.1;
+  padding: 30px 20px 40px 20px;
+  overflow-x: hidden;
 }
 
 .col {
   display: flex;
+  justify-content: center;
+  width: 80%;
+  margin: auto;
+  padding: 30px;
 }
 
 .row {
-  margin: 10px;
-  height: 300px;
+  margin: 0;
+  border: 1px solid #262626;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 0 6px;
+  height: 230px;
   text-align: center;
   width: 80%;
   color: #fff;
   background-color: rgba(64, 67, 73, 0.9);
+
+  padding-bottom: 20px;
 }
 
 .row:hover {
@@ -185,7 +195,7 @@ nav ul li a:hover {
 
 .row h4 {
   color: #e65642;
-  padding: 20px;
+  /* padding: 20px; */
 }
 
 .row a i {
@@ -196,14 +206,16 @@ nav ul li a:hover {
 .centering {
   text-align: center;
   color: #fff;
+  padding: 30px;
 }
 
 #underline {
   height: 30px;
-  width: 20%;
+  width: 40%;
   margin: auto;
+  padding-bottom: 40px;
+
   border-bottom: 2px solid var(--secondr-color);
-  border-spacing: 20px;
 }
 
 #centering {
@@ -276,16 +288,25 @@ nav ul li a:hover {
 }
 
 .Section-7 {
-  width: 100%;
+  max-width: 100%;
   color: #272a31;
   display: flex;
-  justify-content: space-around;
-  background-color: #d3d3d3;
+  justify-content: center;
+  background-color: #fff;
   align-items: center;
+  height: 120px;
+  font-size: 17px;
+  margin: auto;
 }
 
 .Section-7 img {
-  width: 20%;
+  width: 15%;
+  background-color: #000;
+  margin-right: 10px;
+}
+.footer-content {
+  margin-left: 20px;
+  width: 40%;
 }
 
 .row img {
@@ -362,12 +383,41 @@ nav ul li a:hover {
 .speaker-details hr {
   width: 10%;
 }
-
+.btn {
+  display: none;
+}
+.below-anchor {
+  text-align: center;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+}
 /* Mobile  */
 @media only screen and (max-width: 768px) {
   body {
     font-family: Lato, Helvetica, sans-serif;
     min-width: 100px;
+  }
+  .btn {
+    background-color: #e65642;
+    display: block;
+    padding: 10px;
+    width: 50%;
+    margin: auto;
+    font-size: 20px;
+  }
+  .btn a {
+    color: #fff;
+  }
+  .below-anchor {
+    display: none;
+  }
+  .footer-content {
+    margin-left: 20px;
+    width: 60%;
+  }
+  .logo {
+    display: none;
   }
 
   .contact {
@@ -387,8 +437,12 @@ nav ul li a:hover {
   } */
 
   .Section-4 {
-    max-width: 600px;
     margin: 0 auto;
+    height: 1000px;
+  }
+  .row {
+    margin: auto;
+    width: 80%;
   }
 
   .Professors {
@@ -506,7 +560,7 @@ header {
 
 .nav-link {
   transition: 0.7s ease;
-  color: #fff;
+  color: #000;
 }
 
 .nav-link:hover {
@@ -531,6 +585,9 @@ header {
 @media (max-width: 768px) {
   .hamburger {
     display: block;
+    position: absolute;
+    left: 5%;
+    top: 2%;
   }
 
   .hamburger.active .bar:nth-child(2) {
