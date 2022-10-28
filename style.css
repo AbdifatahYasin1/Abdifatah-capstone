@@ -185,7 +185,6 @@ nav ul li a:hover {
   width: 80%;
   color: #fff;
   background-color: rgba(64, 67, 73, 0.9);
-
   padding-bottom: 20px;
 }
 
@@ -195,6 +194,7 @@ nav ul li a:hover {
 
 .row h4 {
   color: #e65642;
+
   /* padding: 20px; */
 }
 
@@ -214,7 +214,6 @@ nav ul li a:hover {
   width: 40%;
   margin: auto;
   padding-bottom: 40px;
-
   border-bottom: 2px solid var(--secondr-color);
 }
 
@@ -304,6 +303,7 @@ nav ul li a:hover {
   background-color: #000;
   margin-right: 10px;
 }
+
 .footer-content {
   margin-left: 20px;
   width: 40%;
@@ -383,21 +383,25 @@ nav ul li a:hover {
 .speaker-details hr {
   width: 10%;
 }
+
 .btn {
   display: none;
 }
+
 .below-anchor {
   text-align: center;
   color: #fff;
   display: flex;
   justify-content: center;
 }
+
 /* Mobile  */
 @media only screen and (max-width: 768px) {
   body {
     font-family: Lato, Helvetica, sans-serif;
     min-width: 100px;
   }
+
   .btn {
     background-color: #e65642;
     display: block;
@@ -406,16 +410,20 @@ nav ul li a:hover {
     margin: auto;
     font-size: 20px;
   }
+
   .btn a {
     color: #fff;
   }
+
   .below-anchor {
     display: none;
   }
+
   .footer-content {
     margin-left: 20px;
     width: 60%;
   }
+
   .logo {
     display: none;
   }
@@ -439,10 +447,6 @@ nav ul li a:hover {
   .Section-4 {
     margin: 0 auto;
     height: 1000px;
-  }
-  .row {
-    margin: auto;
-    width: 80%;
   }
 
   .Professors {
