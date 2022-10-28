@@ -211,10 +211,9 @@ nav ul li a:hover {
 
 #underline {
   height: 30px;
-  width: 40%;
+  width: 15%;
   margin: auto;
-  padding-bottom: 40px;
-  border-bottom: 2px solid var(--secondr-color);
+  border-bottom: 1px solid var(--secondr-color);
 }
 
 #centering {
