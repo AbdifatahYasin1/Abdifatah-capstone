@@ -417,10 +417,12 @@ nav ul li a:hover {
   .below-anchor {
     display: none;
   }
-
   .footer-content {
-    margin-left: 20px;
-    width: 60%;
+    width: 80%;
+  }
+
+  .footer-content p {
+    width: 300px;
   }
 
   .logo {
@@ -447,7 +449,17 @@ nav ul li a:hover {
     margin: 0 auto;
     height: 1000px;
   }
-
+  .Section-7 {
+    width: 100%;
+    color: #272a31;
+    display: flex;
+    /* justify-content: center; */
+    background-color: #fff;
+    align-items: center;
+    /* height: 120px; */
+    font-size: 17px;
+    /* margin: auto; */
+  }
   .Professors {
     max-width: 600px;
 
@@ -481,6 +493,8 @@ nav ul li a:hover {
 
   .row {
     height: 150px;
+    /* width: fit-content;
+    block-size: fit-content; */
   }
 
   .row img {
@@ -515,7 +529,8 @@ nav ul li a:hover {
   }
 
   .row p {
-    width: 50%;
+    width: 100%;
+    font-size: 14px;
   }
 
   .row:hover {
