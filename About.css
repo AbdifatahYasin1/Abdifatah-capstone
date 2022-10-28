@@ -410,11 +410,15 @@ header li {
 }
 
 @media (max-width: 768px) {
+  .logo-anchor {
+    display: none;
+  }
   .hamburger {
     display: block;
     position: absolute;
     left: 5%;
     top: 2%;
+    background-color: #000;
   }
 
   .hamburger.active .bar:nth-child(2) {
