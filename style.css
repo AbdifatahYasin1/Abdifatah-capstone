@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 * {
   margin: 0;
@@ -6,7 +6,6 @@
   box-sizing: border-box;
 }
 
-/* colros */
 :root {
   --primary-color: #272a31;
   --secondr-color: #ec5242;
@@ -29,8 +28,6 @@ a {
 li {
   list-style-type: none;
 }
-
-/* Section 1 */
 
 .Section-1 {
   grid-column: 1/6;
@@ -72,8 +69,6 @@ li {
   color: #fff;
 }
 
-/* Section 2 */
-
 .Section-2 {
   background-color: #fff;
   grid-gap: 0;
@@ -103,10 +98,6 @@ li {
   background-color: #e65642;
 }
 
-/* .Section-2 ul li a {
-  color: #272a31;
-} */
-
 nav ul li a:hover {
   color: var(--secondr-color);
   border-bottom: 3px solid var(--secondr-color);
@@ -117,8 +108,6 @@ nav ul li a:hover {
   border: 3px solid var(--secondr-color);
   padding: 7px;
 }
-
-/* section 3 */
 
 .Section-3 {
   grid-column: 1/6;
@@ -150,11 +139,6 @@ nav ul li a:hover {
   margin: 8%;
   width: 70%;
 }
-
-/* .under-content {
-  width: 80%;
-  font-size: 19px;
-} */
 
 .Section-4 {
   background: url(images/bg2-repeat.png);
@@ -194,8 +178,6 @@ nav ul li a:hover {
 
 .row h4 {
   color: #e65642;
-
-  /* padding: 20px; */
 }
 
 .row a i {
@@ -260,8 +242,6 @@ nav ul li a:hover {
 .keynote {
   width: 20%;
   margin: auto;
-
-  /* border-bottom: 2px solid var(--secondr-color); */
   padding: 20px;
 }
 
@@ -312,7 +292,6 @@ nav ul li a:hover {
   width: 20%;
 }
 
-/* Sepakers */
 .Professors {
   padding: 70px 0;
 }
@@ -333,7 +312,7 @@ nav ul li a:hover {
   padding: 18px;
   width: 80px;
   height: 80px;
-  background: url("./img/checkers2.png");
+  background: url('./img/checkers2.png');
   background-size: 100px;
   margin-bottom: 100px;
   margin-right: 50px;
@@ -351,7 +330,7 @@ nav ul li a:hover {
 }
 
 .speakers-section-info h2::after {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   top: 40px;
@@ -394,7 +373,6 @@ nav ul li a:hover {
   justify-content: center;
 }
 
-/* Mobile  */
 @media only screen and (max-width: 768px) {
   body {
     font-family: Lato, Helvetica, sans-serif;
@@ -403,11 +381,13 @@ nav ul li a:hover {
 
   .btn {
     background-color: #e65642;
-    display: block;
-    padding: 10px;
-    width: 50%;
-    margin: auto;
-    font-size: 20px;
+    margin: 0 auto;
+    width: 40%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
   }
 
   .btn a {
@@ -442,10 +422,6 @@ nav ul li a:hover {
     display: none;
   }
 
-  /* .Section-2 {
-    display: none;
-  } */
-
   .Section-4 {
     margin: 0 auto;
     height: 1000px;
@@ -455,21 +431,13 @@ nav ul li a:hover {
     width: 100%;
     color: #272a31;
     display: flex;
-
-    /* justify-content: center; */
     background-color: #fff;
     align-items: center;
-
-    /* height: 120px; */
     font-size: 17px;
-
-    /* margin: auto; */
   }
 
   .Professors {
     max-width: 600px;
-
-    /* margin-top: 20%; */
     margin: 0 auto;
   }
 
@@ -499,9 +467,7 @@ nav ul li a:hover {
 
   .row {
     height: 150px;
-
-    /* width: fit-content;
-    block-size: fit-content; */
+    margin-bottom: 10px;
   }
 
   .row img {
@@ -523,10 +489,6 @@ nav ul li a:hover {
     height: 300px;
   }
 
-  /* .Professors {
-    margin-top: 110%;
-  } */
-
   #underline {
     width: 100%;
   }
@@ -543,26 +505,14 @@ nav ul li a:hover {
   .row:hover {
     border: 1px solid #fff;
   }
-
-  /* Hamburger Menu */
 }
 
-/* Hanmburger menu  */
 header {
   width: 100%;
   background-color: #272a31;
   color: #d3d3d3;
   display: none;
 }
-
-/* header li {
-  list-style-type: none;
-} */
-
-/* header li a {
-  color: blue;
-  text-decoration: none;
-} */
 
 .navbar {
   min-height: 70px;
